@@ -203,36 +203,35 @@
                 </div>
         </div>
       </main>
-      <footer class="container-fluid bg-dark" class="d-block h-25">
-     <div class="row">
-       <div class="col-sm-8 text-white-50">
-       <strong> Le Ceramiche di Alice</strong><br>
-        Vicolo Pomodoro 16, Verona <br>
-        Italia <br>
-        ceramichedialice@gmail.it
-       </div>      
-       <div class="col-sm-4 align-self-end">
-          <form method="POST" action="alta.html" id="FormSearch" onsubmit="return ValidateSearch()" name="FormSearch">
-            <div class="form-group d-flex">
-              <input type="text" name="search" class="form-control" id="search" placeholder="Search">
-              <button type="submit" class="btn btn-primary">Search</button>
-              <div class="invalid-feedback" id="errorSearch"></div>                                                     
-          </div>
-            </form>
-          </div>
-          </div>
-          <div class="row">     
-       <div class="col-md-12 text-right align-self-end">
-        <a href="https://www.instagram.com/leceramichedialice/">
-          <img src="img/instagram.png"></a>
-      <a href="wwww.facebook.com">
-          <img src="img/facebook.png"></a>
+      <!--- Footer-->   
+    <footer class="container-fluid bg-dark" class=" lg-d-block h-25">
+      <div class="row">
+        <div class="col text-white-50">
+          <strong> Le Ceramiche di Alice</strong><br>
+          Vicolo Pomodoro 16, Verona <br>
+          Italia <br>
+          ceramichedialice@gmail.it
+        </div>
+        <div class="col " >
+          <a href="https://www.instagram.com/leceramichedialice/">
+            <img src="img/instagram.png"></a>
+          <a href="wwww.facebook.com">
+            <img src="img/facebook.png"></a>
           <a href="www.linkedin.com">
             <img src="img/linkedin.png"></a>
-       </div>
-     </div>
-   
-    </footer>
+        </div>
+        <div class="col text-danger">
+          <form class="form-inline"method="POST"  action="alta.html" id="FormSearch" onsubmit="return ValidateSearch()" name="FormSearch">
+            <input class="form-control mr-sm-2 my-3" type="text" name="search" id="search" placeholder="Search">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <div class="is-invalid " id="errorSearch"></div>
+          </form>
+          
+        </div>
+        
+      </div>           
+  
+  </footer>
  
     <!-- Optional JavaScript; choose one of the two! -->
 
